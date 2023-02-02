@@ -43,7 +43,7 @@
 
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script>
-        const socket = io("https://nhokcherry.github.io/watermonitoring/") 
+        const socket = io("http://nhokcherry.github.io/watermonitoring/") 
         socket.on("server-send-data-ph-to-dashboard", function(data){
             $("#valuepH").empty().append(data);
         })
