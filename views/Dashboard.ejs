@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nhóm 04</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.0/css/jquery.dataTables.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css"> -->
+</head>
+<body>
+    <div class="main">
+        <div class="banner1">
+            <img src="https://portal.uit.edu.vn/Styles/profi/images/logo186x150.png" alt="UIT logo">
+            <h2>Water Quality Monitoring Dashboard</h2>
+        </div>
+        <div class="banner2">
+            <div class="chart-pH">
+                <div id="chartContainer-pH" style="height: 256px; width: 100%; border-radius: 10px;"></div>
+            </div>
+            <div class="chart-turbidity">
+                <div id="chartContainer-doduc" style="height: 256px; width: 100%; border-radius: 10px;"></div>
+            </div>
+        </div>
+        <div id="value-ph">
+            <h2>Giá trị pH</h2>
+            <p id="valuepH"></p>
+        </div>
+        <div id="value-turbid">
+            <h2>Giá trị độ đục</h2>
+            <p id="valueTurbid"></p>
+        </div>
+
+        <div class="log">
+            <div id="chartContainer" style="height: 560px; width: 100%;"></div>
+        </div>
+    </div>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="chart.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script>
+        const socket = io("https://nhokcherry.github.io/watermonitoring/") 
+        socket.on("server-send-data-ph-to-dashboard", function(data){
+            $("#valuepH").empty().append(data);
+        })
+        socket.on("server-send-data-turbid-to-dashboard", function(data){
+            $("#valueTurbid").empty().append(data)
+        })
+    </script>
+</body>
+</html>

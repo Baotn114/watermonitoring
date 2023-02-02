@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;  /* cho máy nhà là 1920px x 964px */
+    height: 964px;
+    position: relative;  
+}
+
+.banner1{
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient(to right, #cce6ff, #b3d9ff, #99ccff);
+}
+
+.banner1 img{
+    display: block;
+    margin: 0 auto;
+}
+
+.banner1 h2{
+    text-align: center;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.chart-pH{
+    position: absolute;
+    width: 620px; /*máy nhà là 480px, máy Ẩn là 620px */
+    height: 260px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    top: 250px;
+    left: 56px; /*máy nhà là 100px, máy Ẩn là 56px*/
+    box-shadow: 4px 4px 20px grey;
+}
+
+#value-ph{
+    position: absolute;
+    width: 480px;
+    height: 260px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    top: 250px;
+    left: 710px; /*máy nhà là 610px, máy Ẩn là 710px */
+    box-shadow: 4px 4px 20px grey;
+}
+
+#value-turbid{
+    position: absolute;
+    width: 480px;
+    height: 260px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    top: 560px;
+    left: 710px; /*máy nhà là 610px, máy Ẩn là 710px */
+    box-shadow: 4px 4px 20px grey;
+}
+
+.chart-turbidity{
+    position: absolute;
+    width: 620px; /*máy nhà là 480px, máy Ẩn là 620px */
+    height: 260px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    top: 560px;
+    left: 56px; /*máy nhà là 100px, máy Ẩn là 56px*/
+    box-shadow: 4px 4px 20px grey;
+}
+
+
+.Log{
+    position: absolute;
+    width: 860px;
+    height: 580px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    top: 244px;
+    /* left: 1024px; */
+    right: 244px;
+    box-shadow: 4px 4px 20px grey;
+    padding: 10px 10px 0px 10px;
+}
+
+#valuepH, #valueTurbid{
+    font-size: 100px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.log{
+    position: absolute;
+    width: 740px;
+    height: 575px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    top: 248px;
+    right: 68px; /*1060px*/
+    box-shadow: 4px 4px 20px grey;
+}
+
+#log-table{
+    padding-top: 10px;
+}
+
+#valuepH, #valueTurbid {
+    color: #0099cc;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+    color: #004d66;
+}
