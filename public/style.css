@@ -29,12 +29,12 @@
 
 .chart-pH{
     position: absolute;
-    width: 620px; /*máy nhà là 480px, máy Ẩn là 620px */
+    width: 480px; /*máy nhà là 480px, máy Ẩn là 620px */
     height: 260px;
     background-color: #f2f2f2;
     border-radius: 10px;
     top: 250px;
-    left: 56px; /*máy nhà là 100px, máy Ẩn là 56px*/
+    left: 100px; /*máy nhà là 100px, máy Ẩn là 56px*/
     box-shadow: 4px 4px 20px grey;
 }
 
@@ -45,7 +45,7 @@
     background-color: #f2f2f2;
     border-radius: 10px;
     top: 250px;
-    left: 710px; /*máy nhà là 610px, máy Ẩn là 710px */
+    left: 610px; /*máy nhà là 610px, máy Ẩn là 710px */
     box-shadow: 4px 4px 20px grey;
 }
 
@@ -56,18 +56,18 @@
     background-color: #f2f2f2;
     border-radius: 10px;
     top: 560px;
-    left: 710px; /*máy nhà là 610px, máy Ẩn là 710px */
+    left: 610px; /*máy nhà là 610px, máy Ẩn là 710px */
     box-shadow: 4px 4px 20px grey;
 }
 
 .chart-turbidity{
     position: absolute;
-    width: 620px; /*máy nhà là 480px, máy Ẩn là 620px */
+    width: 480px; /*máy nhà là 480px, máy Ẩn là 620px */
     height: 260px;
     background-color: #f2f2f2;
     border-radius: 10px;
     top: 560px;
-    left: 56px; /*máy nhà là 100px, máy Ẩn là 56px*/
+    left: 100px; /*máy nhà là 100px, máy Ẩn là 56px*/
     box-shadow: 4px 4px 20px grey;
 }
 
@@ -98,7 +98,7 @@
     background-color: #f2f2f2;
     border-radius: 10px;
     top: 248px;
-    right: 68px; /*1060px*/
+    right: 1060px; /*1060px*/
     box-shadow: 4px 4px 20px grey;
 }
 
