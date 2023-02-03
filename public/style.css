@@ -5,7 +5,7 @@
 }
 
 .main{
-    width: 100%;  /* cho máy nhà là 1920px x 964px */
+    width: 1920px;  /* cho máy nhà là 1920px x 964px */
     height: 964px;
     position: relative;  
 }
