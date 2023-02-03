@@ -68,14 +68,14 @@ let mailOptionpH = {
     from: "nhom4uit19521172@gmail.com",
     to: "baosuper456@gmail.com",
     subject: "pH Notification",
-    text: "the pH number is exceeding the average value!. If you want to know more details, access to the website: https://nhokcherry.github.io/watermonitoring/"
+    text: "the pH number is exceeding the average value!"
 }
 
 let mailOptionTurbid = {
     from: "alertwemos@gmail.com",
     to: "baosuper456@gmail.com",
     subject: "Turbidity Notification",
-    text: "the turbidity number is exceeding the average value!. If you want to know more details, access to the website: https://nhokcherry.github.io/watermonitoring/"
+    text: "the turbidity number is exceeding the average value!"
 }
 
 
