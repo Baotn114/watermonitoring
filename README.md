@@ -1,4 +1,4 @@
-The links below are the dashboard website with simulating codes of two sensors:
+The links below are the dashboard website and simulating codes of two sensors:
 
 *** The website ***
 
