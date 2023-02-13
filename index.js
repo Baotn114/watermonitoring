@@ -27,11 +27,11 @@ const topic2 = "wemos/mobile/chart/dataTurbid"
 const topic3 = "wemos/mobile/text/datapH"
 const topic4 = "wemos/mobile/text/dataTurbid"
 
-const databaseURL =  process.env.URL //'mongodb+srv://nhokcherry34:bao24112001@ngocbao.jgr3j.mongodb.net/nhom01?retryWrites=true&w=majority';
+const databaseURL =  process.env.URL
 mongoose.connect(databaseURL)
     .then((result) => server.listen(process.env.PORT || 3000))
     .catch((err) => console.log(err));
-    
+
 app.use(express.static(__dirname + '/public'));
 app.set('view engine', 'ejs');
 
